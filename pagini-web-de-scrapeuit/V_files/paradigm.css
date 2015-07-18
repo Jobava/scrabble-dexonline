@@ -1,0 +1,106 @@
+@import "common.css";
+
+.paraLexem {
+  margin-bottom: 10px;
+}
+
+.paraEdit {
+  background: url("../img/icons/pencil.png") no-repeat;
+  font-size: 16px;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+.lexemName {
+  font-weight: bold;
+}
+
+.lexemModel {
+  border-collapse: collapse;
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+.lexemModel td {
+  border: 1px solid #dddddd;
+  padding: 0px 10px;
+}
+
+.lexemModel .inflection {
+  color: #555555;
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+}
+
+.lexemModel .form {
+  font-style: italic;
+}
+
+.lexemModel .form .accented {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.lexemModel .spacer {
+  height: 2px;
+}
+
+.lexemModel tr .person {
+  text-align: right;
+}
+
+.noParadigm {
+  color: #555555;
+  font-style: italic;
+  padding-left: 80px;
+  white-space: nowrap;
+}
+
+.isLoc {
+  color: green;
+  cursor: help;
+  font-weight: bold;
+}
+
+.lexemTags,
+.lexemSources {
+  font-size: 75%;
+  color: green;
+}
+
+#paradigmDiv {
+  margin: 5px 50px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.paradigmLink {
+  font-size: small;
+}
+
+.scrabbleModelName {
+  font-weight: bold;
+}
+
+.scrabbleModelName .accented {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.notInLoc {
+  color: #c01010;
+  cursor: help;
+  font-style: italic;
+}
+
+.notRecommended {
+  color: #1010c0;
+  cursor: help;
+  font-style: italic;
+}
+
+.notRecommendedLegend {
+  color: #1010c0;
+  font-style: italic;
+}
